@@ -22,6 +22,43 @@ The final deliverables included:
 + A comprehensive database used to train the model, ensuring the system could handle large volumes of data. 
 + The raw code used throughout the project. 
 
-Ollama was scripted to accurately process the crawled data, specifically the product name 
+Ollama was scripted to accurately process the crawled data, specifically the product name and description, to provide tailored product-specific attributes. The project focused specifically on crawling data from www.tukku.net, adhering strictly to the client's specifications. 
+
+In conclusion, the AI Content Crawling Project successfully developed a backend solution to train the LLM model. Despite challenges with computational resources, the team leveraged advanced AI models, a robust database system, and high-performance infrastructure to create a practical, efficient solution for e-commerce, improving the user experience significantly. 
+
+## Project Structure
+
++ Website where data should be crawled: We crawl data from tukku.net, which is a shopping website with more than ten thousand data points.
++ Scripts to crawl and deal with data: We have scripts to crawl data and interact with Ollama to translate data and further generate attributes that are useful to return relevant products based on the user’s query. Also, the script exports a CSV file for later data cleaning work
++ Database to store cleaned data: The cleaned data will be stored in a database as one primary table and one wide table (columns that are most likely to be product related attributes like resistance).
++ Interface from customer’s side: This part is already implemented from the customer’s side, and our refined database could provide data to its API
+
+
+![image](https://github.com/user-attachments/assets/74bb85cd-0df3-4ae6-88c4-efb30f505d63)
+
+## WorkFlow dieagram
+
+![image](https://github.com/user-attachments/assets/1c741698-5ce1-418c-aec4-ffc88af054c2)
+
+### 🛠️ Tools and Libraries
+
+| Category    | Item                        |
+|-------------|-----------------------------|
+| Software    | Confluence (documentation)  |
+| Software    | Jira (project management)   |
+| Software    | GitHub (version control)    |
+| Software    | CSC platform (Mahti)        |
+| Software    | PyCharm (IDE)               |
+| Software    | Visual Studio Code          |
+| Software    | Python (Programming language) |
+| Software    | Ollama 3.2 (AI model)       |
+| Software    | MySQL Workbench             |
+| Software    | MySQL phpMyAdmin            |
+| Dependency  | Illama 3.2                  |
+| Dependency  | BeautifulSoup (Crawling library) |
+| Dependency  | Pandas (Library)            |
+| Dependency  | Regex (Library)             |
+
+
 
 
