@@ -49,7 +49,7 @@ In conclusion, the AI Content Crawling Project successfully developed a backend 
 | Software    | GitHub (version control)    |
 | Software    | CSC platform (Mahti)        |
 | Software    | PyCharm (IDE)               |
-| Software    | Visual Studio Code          |
+| Software    | Visual Studio Code ,Jupyter Notebok          |
 | Software    | Python (Programming language) |
 | Software    | Ollama 3.2 (AI model)       |
 | Software    | MySQL Workbench             |
